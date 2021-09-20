@@ -12,9 +12,11 @@ namespace WebApplication13.Controllers
         // GET: ABCController1
         public ActionResult Index()
         {
+            var a = 0;
             return View();
         }
 
+        
         // GET: ABCController1/Details/5
         public ActionResult Details(int id)
         {
